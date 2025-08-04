@@ -1,8 +1,11 @@
 ﻿
-int a = 10;
+class Program {
 
-Console.WriteLine($"The value of a is: {a}");
-Console.WriteLine("Hello, World!");
+    static void Main(string[] args)
+    {
+        //Change the name to run your code
+        const string name = "Ruiz";
+        StudentSelector.RunSelectedStudent(name);
+    }
 
-
-
+}
